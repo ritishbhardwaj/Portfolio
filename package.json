@@ -1,0 +1,12 @@
+{
+  "name": "portfolio-frontend",
+  "private": true,
+  "version": "0.2.0",
+  "description": "Frontend-only React portfolio with zero-install dev server",
+  "scripts": {
+    "dev": "node dev-server.js",
+    "dev:host": "node dev-server.js --host 0.0.0.0 --port 4173",
+    "start": "node dev-server.js --host 0.0.0.0 --port 4173"
+  },
+  "type": "module"
+}
