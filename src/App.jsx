@@ -4,7 +4,7 @@ import Section from './components/Section';
 const experiences = [
   {
     role: 'Software Developer',
-    company: 'Amdocs (Client: Rogers - Telecom) — Pune',
+    company: 'Amdocs (Client: Rogers - Telecom), Pune',
     period: 'Jul 2024 – Present',
     points: [
       'Developed and maintained backend automation workflows supporting telecom service provisioning and billing systems aligned with TMF standards.',
@@ -16,7 +16,7 @@ const experiences = [
   },
   {
     role: 'Software Development Intern',
-    company: 'KocharTech — Punjab',
+    company: 'KocharTech, Punjab',
     period: 'Jan 2024 – Jul 2024',
     points: [
       'Developed a desktop automation system using Python and Windows APIs, leveraging COM objects and win32 for low-level OS interaction.',
@@ -31,13 +31,13 @@ const projects = [
     title: 'AI-GPT-BOT (RAG System)',
     stack: ['Python', 'LangChain', 'Ollama', 'ChromaDB'],
     description:
-      'Designed a modular Retrieval-Augmented Generation backend with persistent vector storage for low-latency semantic retrieval. Implemented context window management and SQLite-based chat history optimization for efficient token utilization.',
+      'Designed a modular Retrieval-Augmented Generation backend with persistent vector storage for low-latency semantic retrieval and implemented context window management with SQLite-based chat history optimization.',
   },
   {
     title: 'Blog Management System',
-    stack: ['Django', 'MySQL'],
+    stack: ['Django', 'MySQL', 'JWT', 'REST APIs'],
     description:
-      'Developed a full-stack application with JWT-based authentication and REST-style CRUD operations. Implemented relational data modeling and optimized database queries for performance.',
+      'Developed a full-stack application with JWT-based authentication, REST-style CRUD operations, relational data modeling, and optimized database queries for better performance.',
   },
 ];
 
@@ -57,16 +57,10 @@ export default function App() {
       <main className="container">
         <Section id="about" title="About">
           <p>
-            Software developer focused on automation, backend integrations, and reliable enterprise
-            systems.
+            B.Tech in Computer Science graduate from Guru Nanak Dev University, Amritsar (2020 –
+            2024) with a CGPA of 8.45/10. Strong interest in backend systems, automation, and
+            reliable software delivery for enterprise-scale environments.
           </p>
-        </Section>
-
-        <Section id="education" title="Education">
-          <article className="experience-card">
-            <h3>Guru Nanak Dev University, Amritsar</h3>
-            <p className="meta">B.Tech in Computer Science | CGPA: 8.45/10 | 2020 – 2024</p>
-          </article>
         </Section>
 
         <Section id="experience" title="Experience">
@@ -121,17 +115,12 @@ export default function App() {
 
         <Section id="contact" title="Contact">
           <p>
-            <a href="tel:+919914996125">+91-9914996125</a> •{' '}
-            <a href="mailto:ritishbhardwaj02@gmail.com">ritishbhardwaj02@gmail.com</a>
-          </p>
-          <p>
+            Reach out at <a href="mailto:ritishbhardwaj02@gmail.com">ritishbhardwaj02@gmail.com</a>{' '}
+            or connect on{' '}
             <a href="https://linkedin.com/in/ritish-bhardwaj" target="_blank" rel="noreferrer">
-              linkedin.com/in/ritish-bhardwaj
-            </a>{' '}
-            •{' '}
-            <a href="https://github.com/ritishbhardwaj" target="_blank" rel="noreferrer">
-              github.com/ritishbhardwaj
+              LinkedIn
             </a>
+            .
           </p>
         </Section>
       </main>

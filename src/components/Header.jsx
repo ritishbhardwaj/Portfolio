@@ -23,7 +23,6 @@ export default function Header() {
 
           <nav aria-label="Main navigation" className="hero-nav">
             <a href="#about">About</a>
-            <a href="#education">Education</a>
             <a href="#experience">Experience</a>
             <a href="#projects">Projects</a>
             <a href="#skills">Skills</a>
