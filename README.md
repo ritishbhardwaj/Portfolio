@@ -1,25 +1,25 @@
-# Portfolio Frontend (React)
+# Portfolio Frontend (React + Vite)
 
-A frontend-only React portfolio that runs without installing npm packages.
+A starter frontend-only portfolio site built with React.
 
-## Run locally (debug mode + live reload)
+## Getting started
 
 ```bash
+npm install
 npm run dev
 ```
 
-This starts a local dev server with **debug mode ON** and automatic page reload whenever files change.
+Open the local URL shown by Vite (usually `http://localhost:5173`).
 
-## Host so others can open it
+## Build for production
 
 ```bash
-npm run dev:host
+npm run build
+npm run preview
 ```
 
-This binds to `0.0.0.0:4173`, so you can open it from forwarded ports / remote browser sessions.
+## Customize
 
-## Customize content
-
-- Update your headline and intro in `src/components/Header.js`.
-- Update sections and projects in `src/App.js`.
-- Update colors and layout in `src/styles.css`.
+- Update personal info in `src/components/Header.jsx` and `src/App.jsx`.
+- Add/replace projects in the `projects` array inside `src/App.jsx`.
+- Modify theme and layout in `src/styles.css`.
